@@ -43,10 +43,14 @@ While building this project, I learned about:
 
 ## Project Structure
 
-```
-.
-├── schema.sql
-└── README.md
+```text
+saas-subscription-billing-database/
+  scripts/
+    schema.sql           # Creates the database, tables, constraints, and relationships
+    seeds.sql            # Inserts sample data into the database
+    queries.sql          # Example SQL queries for testing and practice
+  LICENSE                # Project license
+  README.md              # Project documentation and setup guide
 ```
 
 ## How to Run
@@ -55,18 +59,6 @@ While building this project, I learned about:
 2. Open pgAdmin or psql.
 3. Run the `schema.sql` file.
 4. The database and tables will be created automatically.
-
-## Future Improvements
-
-Some features I would like to add in the future:
-
-- Organizations/Companies
-- User roles and permissions
-- Invoice generation
-- Discounts and coupons
-- Payment methods
-- Audit logs
-- REST API integration
 
 ## Purpose
 
